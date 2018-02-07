@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="status"
+        android:summaryOff="@string/settings_status_off_summary"
+        android:summaryOn="@string/settings_status_on_summary"
+        android:title="@string/settings_status_title" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="email"
+        android:summary="@string/settings_email_summary"
+        android:title="@string/settings_email_title" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="token"
+        android:summary="@string/settings_token_summary"
+        android:title="@string/settings_token_title" />
+
+
+    <EditTextPreference
+        android:defaultValue="1800"
+        android:key="interval"
+        android:numeric="integer"
+        android:summary="@string/settings_interval_summary"
+        android:title="@string/settings_interval_title" />
+
+    <ListPreference
+        android:defaultValue="mixed"
+        android:entries="@array/settings_provider_names"
+        android:entryValues="@array/settings_provider_values"
+        android:key="provider"
+        android:summary="@string/settings_provider_summary"
+        android:title="@string/settings_provider_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="emergency"
+        android:summaryOff="@string/settings_emergency_off_summary"
+        android:summaryOn="@string/settings_emergency_on_summary"
+        android:title="@string/settings_emergency_title" />
+
+</PreferenceScreen>

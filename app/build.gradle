@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 24
+        versionCode 38
+        versionName '3.12.3'
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('../android-keystore-waynik.jks')
+            keyAlias 'android-key-waynik'
+            storePassword 'pass'
+            keyPassword 'pass'
+        }
+    }
+
+    productFlavors {
+        regular {
+            applicationId "com.waynik.client"
+            buildConfigField "boolean", "HIDDEN_APP", "false"
+        }
+        hidden {
+            applicationId "com.waynik.client.hidden"
+            buildConfigField "boolean", "HIDDEN_APP", "true"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'com.android.support:support-v4:24.0.0'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.robolectric:robolectric:3.0'
+}
+
+task requestPasswords << {
+    android.signingConfigs.release.storePassword = new String(System.console().readPassword('\nStore password: '))
+    android.signingConfigs.release.keyPassword = new String(System.console().readPassword('Key password: '))
+}
+
+tasks.whenTaskAdded { theTask ->
+    if (theTask.name.equals('packageRegularRelease') || theTask.name.equals('packageHiddenRelease')) {
+        //theTask.dependsOn 'requestPasswords'
+    }
+}
+
+
+apply plugin: 'com.google.gms.google-services'

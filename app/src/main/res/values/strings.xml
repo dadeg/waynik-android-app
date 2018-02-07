@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Waynik Client</string>
+    <string name="app_logo">Waynik</string>
+    <string name="shortcut_start">Waynik - Start</string>
+    <string name="shortcut_stop">Waynik - Stop</string>
+
+    <string name="settings_email_title">Email address</string>
+    <string name="settings_email_summary">Your email address</string>
+    <string name="settings_token_title">Security token</string>
+    <string name="settings_token_summary">Found in your Waynik account</string>
+    <string name="settings_interval_title">Frequency</string>
+    <string name="settings_interval_summary">Messages interval in seconds</string>
+    <string name="settings_status_title">Service status</string>
+    <string name="settings_status_off">Start</string>
+    <string name="settings_status_on">Stop</string>
+    <string name="settings_status_off_summary">Service stopped</string>
+    <string name="settings_status_on_summary">Service running</string>
+    <string name="settings_provider_title">Location provider</string>
+    <string name="settings_provider_summary">Source of location data</string>
+    <string name="settings_emergency_title">Emergency mode</string>
+    <string name="settings_emergency_off">Start emergency notifications</string>
+    <string name="settings_emergency_on">Stop emergency notifications</string>
+    <string name="settings_emergency_off_summary">Emergency mode stopped</string>
+    <string name="settings_emergency_on_summary">Emergency mode started</string>
+    <string-array name="settings_provider_names">
+        <item>GPS provider</item>
+        <item>Network provider</item>
+        <item>Mixed provider</item>
+    </string-array>
+    <string name="settings_foreground_title">Foreground service</string>
+    <string name="settings_foreground_summary">Increase service priority</string>
+
+    <string name="menu_status">Status</string>
+    <string name="menu_about">About</string>
+    <string name="menu_shortcuts">Add shortcuts</string>
+    <string name="menu_clear">Clear</string>
+    
+    <string name="about_description">
+        Overview: Real-time GPS tracker for Android devices.
+
+        Using Waynik:
+        1) Register your device online at https://www.waynik.com
+        2) Insert your email and token provided during registration into the Waynik app
+        3) Ensure the Waynik application is always enabled (Service Status button on Waynik app homescreen is green)
+        4) Check that your phone is sending regular updates at https://www.waynik.com
+
+        Support: We would love to hear from you. If you have any questions, issues or feedback please contact us at development@waynik.com.
+
+        Disclaimer: This application monitors your location in the background while you have it running. To stop Waynik, you must turn off the service. Continued use of GPS running in the background can dramatically decrease battery life.
+    </string>
+    <string name="about_license">This application is free and open source, source code is licensed under Apache License Version 2.0 and available on GitHub.</string>
+    <string name="about_web">For more information visit\nwww.waynik.com</string>
+
+    <string name="status_service_create">Service created</string>
+    <string name="status_service_destroy">Service destroyed</string>
+    <string name="status_send_fail">Send failed</string>
+    <string name="status_location_update">Location update</string>
+    <string name="status_connectivity_change">Connectivity change</string>
+
+    <string name="hidden_app_name">Device Settings</string>
+    <string name="hidden_alert">The app has been hidden. To open it again please dial 8722227 (TRACCAR).</string>
+
+</resources>

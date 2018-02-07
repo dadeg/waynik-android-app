@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "342825320029",
+    "firebase_url": "https://waynik-user-supp-1476571838869.firebaseio.com",
+    "project_id": "waynik-user-supp-1476571838869",
+    "storage_bucket": "waynik-user-supp-1476571838869.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342825320029:android:50e6521113ab224c",
+        "android_client_info": {
+          "package_name": "com.waynik.client.hidden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342825320029-s7e4thffeu51qfcios69tut92k7daghq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waynik.client.hidden",
+            "certificate_hash": "a17809884fa305880dd9d1ad8550f45bbc6645c5"
+          }
+        },
+        {
+          "client_id": "342825320029-ur68v50obr44v743f6fk5aoogo04a5a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDybCfuXP8ybu3Jmfmons0dUP1yfg4tNj0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342825320029-l4oaogboe52i3q1kgfd6eo760cm2q767.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.waynik.gps"
+              }
+            },
+            {
+              "client_id": "342825320029-ur68v50obr44v743f6fk5aoogo04a5a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342825320029:android:d036372d3fdbeb18",
+        "android_client_info": {
+          "package_name": "com.waynik.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342825320029-bq8duc43e8ht0cfc1ub9jqcbof1lald3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waynik.client",
+            "certificate_hash": "a17809884fa305880dd9d1ad8550f45bbc6645c5"
+          }
+        },
+        {
+          "client_id": "342825320029-ur68v50obr44v743f6fk5aoogo04a5a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDybCfuXP8ybu3Jmfmons0dUP1yfg4tNj0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342825320029-l4oaogboe52i3q1kgfd6eo760cm2q767.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.waynik.gps"
+              }
+            },
+            {
+              "client_id": "342825320029-ur68v50obr44v743f6fk5aoogo04a5a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+.gradle
+.idea/
+local.properties
+traccar-client-android.iml
+app/app.iml
+build/
+app/build/
+*.DS_Store*
+*.iml
